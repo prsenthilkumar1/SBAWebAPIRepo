@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="eb8405e0651c4a44b3741de5a8508d09" Name="Diagram1">
+        <EntityTypeShape EntityType="masterModel.User" Width="1.5" PointX="0.5" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.Project" Width="1.5" PointX="2.75" PointY="1.125" />
+        <AssociationConnector Association="masterModel.FK__Project__User_ID__6A50C1DA" />
+        <EntityTypeShape EntityType="masterModel.ParentTask" Width="1.5" PointX="0.75" PointY="4.75" />
+        <EntityTypeShape EntityType="masterModel.Task" Width="1.5" PointX="5" PointY="1" />
+        <AssociationConnector Association="masterModel.FK__Task__Project_ID__6D2D2E85" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
